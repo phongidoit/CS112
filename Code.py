@@ -8,7 +8,7 @@ def factorial(n):
 def fibonacci(n):
     if n <=1:
         return 1
-    return fibonacci(n-1) + fibnacci(n-2)
+    return fibonacci(n-1) + fibonacci(n-2)
 
 print(factorial(3))
 

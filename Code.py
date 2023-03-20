@@ -11,12 +11,10 @@ def fibonacci(n):
     return fibonacci(n-1) + fibonacci(n-2)
 
 def func1(n):
-    if n<=1:
-        return 1
-    a = 0
-    for i in range(0,n):
-        a += 1
-    return  a + func1(n-2)
+    if n<=2:
+        return n
+    else
+        return 5*func1(n-1) - 8*func1(n-2) + 4*func1(n-3)
 
 print(factorial(3))
 
